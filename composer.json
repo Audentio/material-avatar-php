@@ -1,0 +1,16 @@
+{
+    "name": "audentio/material-avatar-php",
+    "description": "Generate material avatar data",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jake Booher",
+            "email": "jakeb@audentio.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {"Audentio\\MaterialAvatar\\": "src/"}
+    }
+}
