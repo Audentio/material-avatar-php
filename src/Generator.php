@@ -10,8 +10,8 @@ class Generator
         $text = self::generateText($string, $textLength);
 
         return [
-            'backgroundColor' => $colors['bgColor'],
-            'textColor' => $colors['fgColor'],
+            'backgroundColor' => $colors['backgroundColor'],
+            'textColor' => $colors['textColor'],
             'text' => $text,
         ];
     }
